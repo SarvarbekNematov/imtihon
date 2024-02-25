@@ -108,6 +108,13 @@
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+    cursor: pointer;
+
+    &:hover{
+        border: 1px solid #36536b;
+        background-color: #36536b;
+        color: #fbfcfe;
+    }
 }
 @media screen and (min-width:768px) {
     .hero__list{

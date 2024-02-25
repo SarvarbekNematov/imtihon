@@ -25,6 +25,11 @@
     box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
     background-color: #ba4270;
     display: none;
+    cursor: pointer;
+
+    &:hover{
+        background-color: #da6d97;
+    }
 }
 .header__menu{
     width: 28px;
