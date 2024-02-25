@@ -25,6 +25,10 @@
     font-weight: 700;
     line-height: 18px;
     opacity: 0.7;
+
+    &:hover{
+        opacity: 1;
+    }
 }
 .footer__icon_block{
     margin-top: 39px;

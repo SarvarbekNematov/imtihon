@@ -199,7 +199,6 @@ h1, h2, h3, h4, h5, p {
 }
 
 .hero__line {
-  display: block;
   background-color: #36536b;
   opacity: 0.25;
   height: 1px;
@@ -326,11 +325,10 @@ h1, h2, h3, h4, h5, p {
 
 .start__input {
   display: block;
-  color: rgb(54, 83, 107);
+  color: #36536b;
   font-size: 15px;
   font-weight: 700;
   line-height: 18px;
-  opacity: 0.5;
   border-radius: 24px;
   -webkit-box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
           box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
@@ -344,6 +342,49 @@ h1, h2, h3, h4, h5, p {
   margin-left: auto;
   margin-right: auto;
   border: none;
+}
+.start__input::-webkit-input-placeholder {
+  color: #36536b;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 18px;
+  opacity: 0.5;
+}
+.start__input::-moz-placeholder {
+  color: #36536b;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 18px;
+  opacity: 0.5;
+}
+.start__input:-ms-input-placeholder {
+  color: #36536b;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 18px;
+  opacity: 0.5;
+}
+.start__input::-ms-input-placeholder {
+  color: #36536b;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 18px;
+  opacity: 0.5;
+}
+.start__input::placeholder {
+  color: #36536b;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 18px;
+  opacity: 0.5;
+}
+
+.start__input:focus {
+  outline: none;
+  color: #36536b;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 18px;
 }
 
 .start_btn {
@@ -361,6 +402,10 @@ h1, h2, h3, h4, h5, p {
   margin-top: 16px;
   margin-left: auto;
   margin-right: auto;
+  cursor: pointer;
+}
+.start_btn:hover {
+  background-color: #da6d97;
 }
 
 @media screen and (min-width: 768px) {
@@ -440,6 +485,9 @@ h1, h2, h3, h4, h5, p {
   font-weight: 700;
   line-height: 18px;
   opacity: 0.7;
+}
+.footer__link:hover {
+  opacity: 1;
 }
 
 .footer__icon_block {

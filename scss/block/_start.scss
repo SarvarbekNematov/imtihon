@@ -13,11 +13,10 @@
 }
 .start__input{
     display: block;
-    color: rgb(54, 83, 107);
+    color: #36536b;
     font-size: 15px;
     font-weight: 700;
     line-height: 18px;
-    opacity: 0.5;
     border-radius: 24px;
     box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
     background-color: #fbfcfe;
@@ -30,7 +29,22 @@
     margin-left: auto;
     margin-right: auto;
     border: none;
+
+    &::placeholder{
+        color: #36536b;
+        font-size: 15px;
+        font-weight: 700;
+        line-height: 18px;
+        opacity: 0.5;
+    }
 }
+.start__input:focus {
+    outline: none;
+    color: #36536b;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 18px;
+ }
 .start_btn{
     display: block;
     color: #fbfcfe;
@@ -45,7 +59,12 @@
     width: 100%;
     margin-top: 16px;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: auto; 
+    cursor: pointer;
+
+    &:hover{
+        background-color: #da6d97;
+    }
 }
 @media screen and (min-width:768px) {
     .start__input_block{

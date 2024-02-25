@@ -43,7 +43,15 @@
         line-height: 18px;
         opacity: 0.5;
     }
+
 }
+.hero__input:focus {
+    outline: none;
+    color: #36536b;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 18px;
+ }
 .hero__btn{
     margin-top: 16px;
     display: block;
@@ -57,6 +65,11 @@
     border-radius: 24px;
     background-color: #ba4270;
     border: none;
+    cursor: pointer;
+
+    &:hover{
+        background-color: #da6d97;
+    }
 }
 .hero__text{
     color: rgb(108, 130, 148);
@@ -90,6 +103,12 @@
         border: none;
         position: absolute;
         left: 53%;
+
+        cursor: pointer;
+
+        &:hover{
+            background-color: #da6d97;
+        }
     }
     .hero__input{
         padding-right: 150px;
